@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T08:04:16.913Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="dFxspXTaY6UGBUWOWjoB" version="18.0.3" type="github">
-  <diagram id="m_xalORPLImvYFfss_i5" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-05-13T09:09:04.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="8-mJY2zjn7uplLuQ1IAL" version="18.0.3" type="github" pages="2">
+  <diagram id="m_xalORPLImvYFfss_i5" name="stage1">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,92 @@
             <mxPoint x="279.81999999999994" y="520" as="sourcePoint" />
             <mxPoint x="280.19" y="560" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Mn01bj5st5NMoSQz0yJJ" name="stage2">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-1" value="Brs_PreMainStartup" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="194" y="80" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-2" value="是Core0吗？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="150" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pPGvz-B7Fmlxa3uA0Zo6-1" target="pPGvz-B7Fmlxa3uA0Zo6-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="374" y="120" as="sourcePoint" />
+            <mxPoint x="424" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-4" value="Clock_Init 系统时钟初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="260" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="278.8899999999999" y="230" as="sourcePoint" />
+            <mxPoint x="279" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-6" value="Y" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="283" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-7" value="N" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="429" y="170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="190" as="sourcePoint" />
+            <mxPoint x="469" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-9" value="BrsMainExceptionStartup" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469" y="150" width="181" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-10" value="Y" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="559.2599999999998" y="229.9999999999999" as="sourcePoint" />
+            <mxPoint x="559.3699999999999" y="259.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-12" value="BrsHw_UnlockCores&amp;nbsp; 同步其他cores&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="350" width="261" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pPGvz-B7Fmlxa3uA0Zo6-4" target="pPGvz-B7Fmlxa3uA0Zo6-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="569.2599999999998" y="239.9999999999999" as="sourcePoint" />
+            <mxPoint x="569.3699999999999" y="269.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-14" value="外设总线初始/更新复位原因" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="450" width="261" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pPGvz-B7Fmlxa3uA0Zo6-12" target="pPGvz-B7Fmlxa3uA0Zo6-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="470" as="sourcePoint" />
+            <mxPoint x="240" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-16" value="EcuM_StartOS()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="184" y="790" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-18" value="BrsMainInit BRS(basic runtime system)初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="550" width="261" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="278.71" y="520" as="sourcePoint" />
+            <mxPoint x="279.17153846153855" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-20" value="ECUM_Init()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="153" y="660" width="261" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
