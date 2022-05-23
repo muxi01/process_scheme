@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T09:45:15.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="jStnAyR7OFETdAPTamIm" version="18.0.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-23T10:03:42.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="21srBnViJNVAnws_ehdf" version="18.0.7" type="github" pages="4">
   <diagram id="m_xalORPLImvYFfss_i5" name="APP_BOOT">
-    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1497" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EuZLHdB6nYu1b2kRJj1j-18" value="coreRegisterInit2 [cores相关寄存器/中断向量表]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="147" y="470" width="261" height="70" as="geometry" />
+          <mxGeometry x="149" y="450" width="261" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EuZLHdB6nYu1b2kRJj1j-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EuZLHdB6nYu1b2kRJj1j-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -59,21 +59,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EuZLHdB6nYu1b2kRJj1j-23" value="brsStartupZeroInitLoop [堆内存初始]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="148" y="570" width="261" height="70" as="geometry" />
+          <mxGeometry x="150" y="550" width="261" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EuZLHdB6nYu1b2kRJj1j-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="EuZLHdB6nYu1b2kRJj1j-18" target="EuZLHdB6nYu1b2kRJj1j-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="268" y="590" as="sourcePoint" />
-            <mxPoint x="238" y="760" as="targetPoint" />
+            <mxPoint x="270" y="570" as="sourcePoint" />
+            <mxPoint x="240" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EuZLHdB6nYu1b2kRJj1j-25" value="Brs_PreMainStartup&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="183.5" y="670" width="190" height="80" as="geometry" />
+          <mxGeometry x="185.5" y="650" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EuZLHdB6nYu1b2kRJj1j-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="EuZLHdB6nYu1b2kRJj1j-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="277.81999999999994" y="640" as="sourcePoint" />
-            <mxPoint x="278.19" y="680" as="targetPoint" />
+            <mxPoint x="279.81999999999994" y="620" as="sourcePoint" />
+            <mxPoint x="280.19" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CzsmsjMNY8-YBWYQ8IPX-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="EuZLHdB6nYu1b2kRJj1j-18">
@@ -104,7 +104,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Mn01bj5st5NMoSQz0yJJ" name="APP">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,17 +141,11 @@
             <mxPoint x="469" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-9" value="BrsMainExceptionStartup" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-9" value="等待Core 0 同步信号" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="469" y="150" width="181" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-10" value="Y" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="570" y="230" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="559.2599999999998" y="229.9999999999999" as="sourcePoint" />
-            <mxPoint x="559.3699999999999" y="259.9999999999999" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-12" value="BrsHw_UnlockCores&amp;nbsp; 同步其他cores&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="148" y="470" width="261" height="70" as="geometry" />
@@ -177,7 +171,7 @@
             <mxPoint x="278.17153846153855" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-20" value="ECUM_Init()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-20" value="ECUM_Init() 同步其他Core" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="149" y="770" width="261" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pPGvz-B7Fmlxa3uA0Zo6-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pPGvz-B7Fmlxa3uA0Zo6-18" target="pPGvz-B7Fmlxa3uA0Zo6-20" edge="1">
@@ -206,6 +200,33 @@
             <mxPoint x="600" y="500" as="sourcePoint" />
             <mxPoint x="650" y="450" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JW2OIHg62kQmaWjp5iqt-1" value="等待Core 0 同步信号?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469" y="465" width="181" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JW2OIHg62kQmaWjp5iqt-3" value="初始化vLinkGen策略下的RAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454.5" y="310" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JW2OIHg62kQmaWjp5iqt-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pPGvz-B7Fmlxa3uA0Zo6-9" target="JW2OIHg62kQmaWjp5iqt-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="210" as="sourcePoint" />
+            <mxPoint x="630" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JW2OIHg62kQmaWjp5iqt-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JW2OIHg62kQmaWjp5iqt-3" target="JW2OIHg62kQmaWjp5iqt-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="430" as="sourcePoint" />
+            <mxPoint x="730" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JW2OIHg62kQmaWjp5iqt-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JW2OIHg62kQmaWjp5iqt-1" target="pPGvz-B7Fmlxa3uA0Zo6-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="720" as="sourcePoint" />
+            <mxPoint x="680" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JW2OIHg62kQmaWjp5iqt-9" value="Y" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="570" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
