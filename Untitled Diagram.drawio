@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T14:14:36.324Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="a6ykzOuRfSwLhVNO2pgJ" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-25T08:09:47.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Q4egc35xa-x8rugwjf36" version="20.0.3" type="github" pages="3">
   <diagram id="QvxMBBVeg6zyAkM6D_pC" name="Page-1">
-    <mxGraphModel dx="791" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="661" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,51 +38,83 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pXkHfEUldZDFgWh4v4Ue" name="Page-2">
-    <mxGraphModel dx="877" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
+    <mxGraphModel dx="661" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gbUDC9QKZ-wvfJT30D0X-1" value="&lt;div style=&quot;line-height: 1.15; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 16px; font-family: SimSun, STSong;&quot;&gt;基于RISC-V单片机的接地电阻阻抗测量的装置&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gbUDC9QKZ-wvfJT30D0X-1" value="&lt;div style=&quot;line-height: 1.15; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 16px; font-family: SimSun, STSong;&quot;&gt;基于RISC-V单片机的接地电阻阻抗测量的装置&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="113.75" y="350" width="370" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gbUDC9QKZ-wvfJT30D0X-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="gbUDC9QKZ-wvfJT30D0X-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="278.75" y="246.25" width="47.5" height="362.5" as="geometry" />
         </mxCell>
-        <mxCell id="gbUDC9QKZ-wvfJT30D0X-15" value="&lt;span style=&quot;&quot;&gt;1.直线三点法测电阻的理论基础研究&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gbUDC9QKZ-wvfJT30D0X-15" value="&lt;span style=&quot;&quot;&gt;1.直线三点法测电阻的理论基础研究&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="450" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gbUDC9QKZ-wvfJT30D0X-16" value="&lt;span style=&quot;&quot;&gt;2.有源带通滤波器的设计和验证&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gbUDC9QKZ-wvfJT30D0X-16" value="&lt;span style=&quot;&quot;&gt;2.有源带通滤波器的设计和验证&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="238.75" y="450" width="127.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gbUDC9QKZ-wvfJT30D0X-17" value="&lt;span style=&quot;&quot;&gt;3.快速傅里叶变换的理论研究、验证和移植&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gbUDC9QKZ-wvfJT30D0X-17" value="&lt;span style=&quot;&quot;&gt;3.快速傅里叶变换的理论研究、验证和移植&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="450" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gbUDC9QKZ-wvfJT30D0X-18" value="关键问题一：深入学习理解直线三点法测电阻的理论，掌握其工作原理和使用方法。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gbUDC9QKZ-wvfJT30D0X-18" value="关键问题一：深入学习理解直线三点法测电阻的理论，掌握其工作原理和使用方法。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="555" width="130" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="gbUDC9QKZ-wvfJT30D0X-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gbUDC9QKZ-wvfJT30D0X-18" target="gbUDC9QKZ-wvfJT30D0X-15">
+        <mxCell id="gbUDC9QKZ-wvfJT30D0X-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="gbUDC9QKZ-wvfJT30D0X-18" target="gbUDC9QKZ-wvfJT30D0X-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="620" as="sourcePoint" />
             <mxPoint x="300" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gbUDC9QKZ-wvfJT30D0X-21" value="关键问题二：如何处理使用好有源滤波器，处理好信噪比，提高系统的抗干扰能力" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gbUDC9QKZ-wvfJT30D0X-21" value="关键问题二：如何处理使用好有源滤波器，处理好信噪比，提高系统的抗干扰能力" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="232.5" y="560" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gbUDC9QKZ-wvfJT30D0X-22" value="关键问题三：如何运用快速傅里叶变换将时域信号转换到频域分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gbUDC9QKZ-wvfJT30D0X-22" value="关键问题三：如何运用快速傅里叶变换将时域信号转换到频域分析" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="560" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gbUDC9QKZ-wvfJT30D0X-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gbUDC9QKZ-wvfJT30D0X-21" target="gbUDC9QKZ-wvfJT30D0X-16">
+        <mxCell id="gbUDC9QKZ-wvfJT30D0X-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="gbUDC9QKZ-wvfJT30D0X-21" target="gbUDC9QKZ-wvfJT30D0X-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="570" as="sourcePoint" />
             <mxPoint x="690" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gbUDC9QKZ-wvfJT30D0X-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gbUDC9QKZ-wvfJT30D0X-22" target="gbUDC9QKZ-wvfJT30D0X-17">
+        <mxCell id="gbUDC9QKZ-wvfJT30D0X-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="gbUDC9QKZ-wvfJT30D0X-22" target="gbUDC9QKZ-wvfJT30D0X-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="720" y="580" as="sourcePoint" />
             <mxPoint x="770" y="530" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1BAA8VqRSyKpT-WSzEUC" name="Page-3">
+    <mxGraphModel dx="584" dy="313" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WFPU_of2xcNZ4fEAwD4O-5" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="160" y="810" width="390" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="WFPU_of2xcNZ4fEAwD4O-6" value="输&lt;br&gt;入&lt;br&gt;输&lt;br&gt;出&lt;br&gt;接&lt;br&gt;线&lt;br&gt;端&lt;br&gt;子" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffffff;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="190" y="840" width="50" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WFPU_of2xcNZ4fEAwD4O-7" value="电源模块" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="280" y="840" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WFPU_of2xcNZ4fEAwD4O-8" value="继电器模块" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="280" y="920" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WFPU_of2xcNZ4fEAwD4O-9" value="带通滤波器、PGA模块" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1000" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WFPU_of2xcNZ4fEAwD4O-10" value="MCU模块" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="413" y="840" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WFPU_of2xcNZ4fEAwD4O-11" value="恒流源模块" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="410" y="920" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WFPU_of2xcNZ4fEAwD4O-12" value="精密整流模块" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1000" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
